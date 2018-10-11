@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculate</title>
+	<style>
+	body
+	{
+		background-color:gray;
+	}
+	hr
+	{
+		background-color:green;
+	}
+		div
+		{
+			width:400px;
+			margin:auto;
+			height: auto;
+			background-color:green;
+			padding:15px;
+		}
+		input[type=text]
+		{
+			width:87%;
+			padding:10px;
+			font-size:22px;
+			font-weight:bold;
+			margin-top:20px;
+			border-radius:5px;
+			text-align:right;
+           
+			
+		}
+		input[type=button]
+		{
+			width:89px;
+			padding:10px;
+			font-size:22px;
+			font-weight:bold;
+			border-radius:6px;
+			border-bottom:4px solid black;
+
+		}
+		#del
+		{
+			width:95%;
+			border-bottom:4px solid black;
+		}
+	</style>
+</head>
+<body>
+	<center><h2>Simple Java Script Calculate</h2>
+	<hr size="5">
+
+	<div>
+		<form name="cal">
+			<input type="text" name="display">
+			<br><br>
+			<input type="button" value="9" onclick = "cal.display.value+='9'">
+			<input type="button" value="8" onclick = "cal.display.value+='8'">
+			<input type="button" value="7" onclick = "cal.display.value+='7'">
+			<input type="button" value="+" onclick = "cal.display.value+='+'">
+			<br><br>
+            <input type="button" value="6" onclick = "cal.display.value+='6'">
+			<input type="button" value="5" onclick = "cal.display.value+='5'">
+			<input type="button" value="4" onclick = "cal.display.value+='4'">
+			<input type="button" value="-" onclick = "cal.display.value+='-'">
+			<br><br>
+			<input type="button" value="3" onclick = "cal.display.value+='3'">
+			<input type="button" value="2" onclick = "cal.display.value+='2'">
+			<input type="button" value="1" onclick = "cal.display.value+='1'">
+			<input type="button" value="*" onclick = "cal.display.value+='*'">
+			<br><br>
+			<input type="button" value="0" onclick = "cal.display.value+='0'">
+			<input type="button" value="/" onclick = "cal.display.value+='/'">
+			<input type="button" value="%" onclick = "cal.display.value+='%'">
+			<input id="ans" type="button" value="=" onclick = "cal.display.value=eval(cal.display.value)">
+			<br><br>
+            <input type="button" value="CLR" onclick = "cal.display.value=''" id="del">
+
+<hr size="5">
+
+
+
+
+
+
+
+		</form>
+	</div><hr size="5">
+</center>
+<script>
+	
+</script>
+</body>
+</html>
